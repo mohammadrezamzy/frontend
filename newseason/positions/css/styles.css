@@ -1,0 +1,29 @@
+* {
+    transition: 0.375s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    height: 15vh;
+    width: 15vw;
+}
+
+.imgc {
+    width: min-content;
+    height: max-content;
+    margin: 5%;
+    z-index: 2;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    background-color: rgba(225, 225, 225, 0.5);
+}
+
+.text-container {
+    margin: 5%;
+    text-align: justify;
+    z-index: 1;
+}
+
+#position-btn {
+    height: fit-content;
+}

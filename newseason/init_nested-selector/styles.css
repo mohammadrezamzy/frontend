@@ -1,0 +1,7 @@
+div p,
+    p {
+      color: indigo !important;
+    }
+div~p{
+    color: indianred;
+}    

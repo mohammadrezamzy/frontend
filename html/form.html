@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <body dir="rtl">
+    <form action="http://localhost:8080/vote" method="post">
+      <label for="username">نام کاربری</label><br />
+      <input id="username" name="username" placeholder = "mmd"/><br />
+      <label for="password">رمز عبور</label><br />
+      <input id="password" name="password" type="password" /><br /><br />
+      <input type="submit" value="ثبت" />
+    </form>
+    <p>سطح خود را مشخص کنید</p>
+    <form>
+      <input type="radio" id="advance" name="level" value="advance" />
+      <label for="advance">پیشرفته</label><br />
+      <input type="radio" id="intermediate" name="level" value="intermediate" />
+      <label for="intermediate">متوسط</label><br />
+      <input type="radio" id="basic" name="level" value="basic" />
+      <label for="basic">مبتدی</label>
+    </form>
+    <form>
+        <label for="readonly">حالت readonly</label><br />
+        <input type="text" id="readonly" name="readonly" readonly /><br />
+        <label for="disabled">حالت disabled</label><br />
+        <input type="text" id="disabled" name="disabled" disabled />
+    </form>
+    <form>
+        <select id="langs" name="lang">
+          <option value="js">جاوااسکریپت</option>
+          <option value="cpp">سی پلاس پلاس</option>
+          <option value="dart">دارت</option>
+          <option value="python">پایتون</option>
+        </select>
+      </form>
+  </body>
+</html>
