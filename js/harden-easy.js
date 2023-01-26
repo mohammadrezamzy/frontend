@@ -1,0 +1,1 @@
+export const solver = (text) => String(text).split(" ").map((x) => +x).filter((v, i) => v % 6 === 0 && (i + 1) % 6 === 0).join(" ").trim()
