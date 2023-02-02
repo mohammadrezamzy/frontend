@@ -1,0 +1,1 @@
+document.querySelector('div').children[0].style.color='indigo'; document.querySelector('div').children[1].style.color='indigo'; document.getElementsByTagName('p')[2].style.color='indianred';

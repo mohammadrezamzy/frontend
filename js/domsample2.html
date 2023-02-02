@@ -1,0 +1,14 @@
+<input id="sample1" type="button" value="Sample1" />
+
+<script>
+    function handler1() {
+        alert('Thanks!');
+    }
+    function handler2() {
+        alert('Thanks again!');
+    }
+    let sample1Inp = document.querySelector("#sample1");
+    sample1Inp.onclick = () => alert("Hello");// Hello
+    sample1Inp.addEventListener("click", handler1); // Thanks!
+    sample1Inp.addEventListener("click", handler2); // Thanks again!
+</script>
